@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/shimmerMain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="visible"
+    android:orientation="vertical">
+
+        <com.facebook.shimmer.ShimmerFrameLayout
+            android:id="@+id/shimmerFrameLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            app:shimmer_base_alpha="0.5"
+            android:visibility="visible"
+            android:orientation="vertical">
+
+            <!-- Adding 15 rows of placeholders -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <include layout="@layout/data_placeholder_layout" />
+                <include layout="@layout/data_placeholder_layout" />
+                <include layout="@layout/data_placeholder_layout" />
+                <include layout="@layout/data_placeholder_layout" />
+                <include layout="@layout/data_placeholder_layout" />
+                <include layout="@layout/data_placeholder_layout" />
+                <include layout="@layout/data_placeholder_layout" />
+                <include layout="@layout/data_placeholder_layout" />
+                <include layout="@layout/data_placeholder_layout" />
+                <include layout="@layout/data_placeholder_layout" />
+                <include layout="@layout/data_placeholder_layout" />
+                <include layout="@layout/data_placeholder_layout" />
+                <include layout="@layout/data_placeholder_layout" />
+                <include layout="@layout/data_placeholder_layout" />
+
+            </LinearLayout>
+        </com.facebook.shimmer.ShimmerFrameLayout>
+    </LinearLayout>
+

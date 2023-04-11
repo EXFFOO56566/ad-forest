@@ -1,0 +1,2267 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Categories Images\n"
+"POT-Creation-Date: 2018-08-29 16:35+0500\n"
+"PO-Revision-Date: 2018-08-29 16:35+0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.1.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: categories-images.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: categories-images.php:46 categories-images.php:61 categories-images.php:173
+msgid "Image"
+msgstr ""
+
+#: categories-images.php:49 categories-images.php:61 categories-images.php:160
+msgid "Upload/Add image"
+msgstr ""
+
+#: categories-images.php:61 categories-images.php:161
+msgid "Remove image"
+msgstr ""
+
+#: categories-images.php:184
+msgid "Thumbnail"
+msgstr ""
+
+#: cpt.php:6
+msgctxt "Post Type General Name"
+msgid "App Pages"
+msgstr ""
+
+#: cpt.php:7
+msgctxt "Post Type Singular Name"
+msgid "App Page"
+msgstr ""
+
+#: cpt.php:8
+msgid "App Pages"
+msgstr ""
+
+#: cpt.php:9 cpt.php:35
+msgid "App Page"
+msgstr ""
+
+#: cpt.php:10
+msgid "Item Archives"
+msgstr ""
+
+#: cpt.php:11
+msgid "Item Attributes"
+msgstr ""
+
+#: cpt.php:12
+msgid "Parent Item:"
+msgstr ""
+
+#: cpt.php:13
+msgid "All Items"
+msgstr ""
+
+#: cpt.php:14
+msgid "Add New Item"
+msgstr ""
+
+#: cpt.php:15
+msgid "Add New"
+msgstr ""
+
+#: cpt.php:16
+msgid "New Item"
+msgstr ""
+
+#: cpt.php:17
+msgid "Edit Item"
+msgstr ""
+
+#: cpt.php:18
+msgid "Update Item"
+msgstr ""
+
+#: cpt.php:19
+msgid "View Item"
+msgstr ""
+
+#: cpt.php:20
+msgid "View Items"
+msgstr ""
+
+#: cpt.php:21
+msgid "Search Item"
+msgstr ""
+
+#: cpt.php:22 notifications.php:100
+msgid "Not found"
+msgstr ""
+
+#: cpt.php:23 notifications.php:101
+msgid "Not found in Trash"
+msgstr ""
+
+#: cpt.php:24 notifications.php:102
+msgid "Featured Image"
+msgstr ""
+
+#: cpt.php:25 notifications.php:103
+msgid "Set featured image"
+msgstr ""
+
+#: cpt.php:26 notifications.php:104
+msgid "Remove featured image"
+msgstr ""
+
+#: cpt.php:27 notifications.php:105
+msgid "Use as featured image"
+msgstr ""
+
+#: cpt.php:28
+msgid "Insert into item"
+msgstr ""
+
+#: cpt.php:29 notifications.php:107
+msgid "Uploaded to this item"
+msgstr ""
+
+#: cpt.php:30
+msgid "Items list"
+msgstr ""
+
+#: cpt.php:31
+msgid "Items list navigation"
+msgstr ""
+
+#: cpt.php:32
+msgid "Filter items list"
+msgstr ""
+
+#: cpt.php:36
+msgid "App Page is design to set the app layouts"
+msgstr ""
+
+#: email-templates.php:11
+msgid "New Ad"
+msgstr ""
+
+#: email-templates.php:12
+msgid "Got new ad"
+msgstr ""
+
+#: email-templates.php:87
+msgid "New Message"
+msgstr ""
+
+#: email-templates.php:89
+msgid "Got new message on ad"
+msgstr ""
+
+#: email-templates.php:120
+msgid "Ad Reported"
+msgstr ""
+
+#: email-templates.php:121
+msgid "Users reported this ad, please check it. "
+msgstr ""
+
+#: email-templates.php:244 email-templates.php:311
+msgid "Email sent"
+msgstr ""
+
+#: email-templates.php:250 email-templates.php:317
+msgid "Email server not responding"
+msgstr ""
+
+#: email-templates.php:278
+msgid "Your new password"
+msgstr ""
+
+#: email-templates.php:280
+msgid "Your new password is: "
+msgstr ""
+
+#: email-templates.php:324
+msgid "Email is not resgistered with us."
+msgstr ""
+
+#: notifications.php:84
+msgctxt "Post Type General Name"
+msgid "Notifications"
+msgstr ""
+
+#: notifications.php:85
+msgctxt "Post Type Singular Name"
+msgid "Notification"
+msgstr ""
+
+#: notifications.php:86
+msgid "Push Notifications"
+msgstr ""
+
+#: notifications.php:87
+msgid "Push Notification"
+msgstr ""
+
+#: notifications.php:88
+msgid "Notifications Archives"
+msgstr ""
+
+#: notifications.php:89
+msgid "Notification Attributes"
+msgstr ""
+
+#: notifications.php:90
+msgid "Parent Notification:"
+msgstr ""
+
+#: notifications.php:91
+msgid "All Notifications"
+msgstr ""
+
+#: notifications.php:92 notifications.php:93
+msgid "Add New Notification"
+msgstr ""
+
+#: notifications.php:94
+msgid "New Notification"
+msgstr ""
+
+#: notifications.php:95
+msgid "Edit Notification"
+msgstr ""
+
+#: notifications.php:96
+msgid "Update Notification"
+msgstr ""
+
+#: notifications.php:97
+msgid "View Notification"
+msgstr ""
+
+#: notifications.php:98
+msgid "View Notifications"
+msgstr ""
+
+#: notifications.php:99
+msgid "Search Notification"
+msgstr ""
+
+#: notifications.php:106
+msgid "Insert into Notification"
+msgstr ""
+
+#: notifications.php:108
+msgid "Notifications list"
+msgstr ""
+
+#: notifications.php:109
+msgid "Notifications list navigation"
+msgstr ""
+
+#: notifications.php:110
+msgid "Filter Notifications list"
+msgstr ""
+
+#: notifications.php:113
+msgid "Notification"
+msgstr ""
+
+#: notifications.php:114
+msgid "Notification Type Description"
+msgstr ""
+
+#: notifications.php:265
+msgid "Are you Sure you want to send push notifications"
+msgstr ""
+
+#: options-init.php:9 options-init.php:11
+msgid "AdForest Apps API Options"
+msgstr ""
+
+#: options-init.php:15
+msgid "Apps API Options"
+msgstr ""
+
+#: options-init.php:58
+msgid "Like us on Facebook"
+msgstr ""
+
+#: options-init.php:66
+msgid "App Settings"
+msgstr ""
+
+#: options-init.php:75
+msgid "Make App Open"
+msgstr ""
+
+#: options-init.php:76
+msgid "Make App Open For Public"
+msgstr ""
+
+#: options-init.php:84
+msgid "Logo"
+msgstr ""
+
+#: options-init.php:86
+msgid "Site Logo image for the site."
+msgstr ""
+
+#: options-init.php:87
+msgid "Dimensions: 230 x 40"
+msgstr ""
+
+#: options-init.php:96
+msgid "Address Type"
+msgstr ""
+
+#: options-init.php:98
+msgid "Cities"
+msgstr ""
+
+#: options-init.php:99
+msgid "Adresses"
+msgstr ""
+
+#: options-init.php:106
+msgid "Message Settings"
+msgstr ""
+
+#: options-init.php:107
+msgid ""
+"Send message notification through firebase when receive new message on ad."
+msgstr ""
+
+#: options-init.php:114
+msgid "Enable Social Profiles"
+msgstr ""
+
+#: options-init.php:115
+msgid "for display"
+msgstr ""
+
+#: options-init.php:122
+msgid "Nearby Option"
+msgstr ""
+
+#: options-init.php:123
+msgid "Turn on/off nearby option in app"
+msgstr ""
+
+#: options-init.php:131
+msgid "Featured Slider Settings"
+msgstr ""
+
+#: options-init.php:139
+msgid "Enable Scroll On Featured Ads"
+msgstr ""
+
+#: options-init.php:140
+msgid "Turn on/off auto scroll on the featured ads slider"
+msgstr ""
+
+#: options-init.php:147
+msgid "Slider Scroll Speed"
+msgstr ""
+
+#: options-init.php:155 options-init.php:171 options-init.php:428
+#: options-init.php:460 options-init.php:476 options-init.php:520
+#: options-init.php:536 options-init.php:566 options-init.php:578
+#: options-init.php:598 options-init.php:630 options-init.php:643
+#: options-init.php:724 options-init.php:750
+msgid "Alert"
+msgstr ""
+
+#: options-init.php:156 options-init.php:172
+msgid "Minimum value should be 3000"
+msgstr ""
+
+#: options-init.php:158
+msgid ""
+"Minimum value should be 3000. Enter value in milisecons 1000 is 1 second. "
+msgstr ""
+
+#: options-init.php:163
+msgid "Slider Loop scroll"
+msgstr ""
+
+#: options-init.php:174
+msgid ""
+"Minimum value should be 3000. Enter value in milisecons 1000 is 1 second. "
+"Once end starts again after X number of seconds."
+msgstr ""
+
+#: options-init.php:181
+msgid "Language Settings"
+msgstr ""
+
+#: options-init.php:189
+msgid "RTL"
+msgstr ""
+
+#: options-init.php:190
+msgid "Make app RTL"
+msgstr ""
+
+#: options-init.php:196
+msgid "App Language"
+msgstr ""
+
+#: options-init.php:197
+msgid "List of available languages."
+msgstr ""
+
+#: options-init.php:197
+msgid "If you have selected RTL put language code here like for arabic ar"
+msgstr ""
+
+#: options-init.php:204
+msgid "App Color"
+msgstr ""
+
+#: options-init.php:212
+msgid "App Colors"
+msgstr ""
+
+#: options-init.php:214 options-init.php:1940 options-init.php:1955
+msgid "Default"
+msgstr ""
+
+#: options-init.php:215
+msgid "Red"
+msgstr ""
+
+#: options-init.php:216
+msgid "Green"
+msgstr ""
+
+#: options-init.php:217
+msgid "Blue"
+msgstr ""
+
+#: options-init.php:218
+msgid "Sea Green"
+msgstr ""
+
+#: options-init.php:227
+msgid "Profile Image Settings"
+msgstr ""
+
+#: options-init.php:236
+msgid "Default user picture"
+msgstr ""
+
+#: options-init.php:238 options-init.php:249
+msgid "Dimensions: 200 x 200"
+msgstr ""
+
+#: options-init.php:247
+msgid "Default guest picture"
+msgstr ""
+
+#: options-init.php:259
+msgid "Social Login Settings"
+msgstr ""
+
+#: options-init.php:267
+msgid "Facebook Login/Register"
+msgstr ""
+
+#: options-init.php:268 options-init.php:275
+msgid "Show or hide google button."
+msgstr ""
+
+#: options-init.php:274
+msgid "Google Login/Register"
+msgstr ""
+
+#: options-init.php:283
+msgid "App Reting Settings"
+msgstr ""
+
+#: options-init.php:291
+msgid "App Rating"
+msgstr ""
+
+#: options-init.php:292
+msgid "Show app rating icon on the top."
+msgstr ""
+
+#: options-init.php:298
+msgid "Rating Title"
+msgstr ""
+
+#: options-init.php:299
+msgid "App Store Rating"
+msgstr ""
+
+#: options-init.php:305
+msgid "Rating title in the popup."
+msgstr ""
+
+#: options-init.php:311
+msgid "App URL (For Android)"
+msgstr ""
+
+#: options-init.php:318
+msgid "Enter app URL for app rating. URL is required"
+msgstr ""
+
+#: options-init.php:323
+msgid "App ID For Ios App"
+msgstr ""
+
+#: options-init.php:330
+msgid "Enter app ID for app rating"
+msgstr ""
+
+#: options-init.php:337
+msgid "App Share Settings"
+msgstr ""
+
+#: options-init.php:345
+msgid "App Share"
+msgstr ""
+
+#: options-init.php:346
+msgid "Show app share icon on the top."
+msgstr ""
+
+#: options-init.php:352
+msgid "Share Popup Title"
+msgstr ""
+
+#: options-init.php:353
+msgid "Share this"
+msgstr ""
+
+#: options-init.php:359
+msgid "title in the popup."
+msgstr ""
+
+#: options-init.php:364
+msgid "Subject"
+msgstr ""
+
+#: options-init.php:371
+msgid "App share subject. Not required."
+msgstr ""
+
+#: options-init.php:376
+msgid "App Share URL"
+msgstr ""
+
+#: options-init.php:383
+msgid "Enter app share URL for app sharing. URL is required."
+msgstr ""
+
+#: options-init.php:390
+msgid "App Dynamic Pages"
+msgstr ""
+
+#: options-init.php:402
+msgid "Select Pages"
+msgstr ""
+
+#: options-init.php:408
+msgid "App Key Settings"
+msgstr ""
+
+#: options-init.php:417
+msgid "Android Key Settings"
+msgstr ""
+
+#: options-init.php:429
+msgid ""
+"Once added be carefull editing next time. Those Key Should Be Same In App "
+"Header."
+msgstr ""
+
+#: options-init.php:437 options-init.php:497 options-init.php:556
+#: options-init.php:708
+msgid "Info"
+msgstr ""
+
+#: options-init.php:438
+msgid ""
+"Below section is only for if you have purchased Android App. Then turn it on "
+"and enter the purchase code in below text field that will appears."
+msgstr ""
+
+#: options-init.php:443
+msgid "For Android App"
+msgstr ""
+
+#: options-init.php:445 options-init.php:695
+msgid "If you have purchased the android app."
+msgstr ""
+
+#: options-init.php:456
+msgid "Enter You Android Purchase Code Here"
+msgstr ""
+
+#: options-init.php:458
+msgid ""
+"Your android item purchase code got from codecanyon. You have purchased the "
+"item seprately."
+msgstr ""
+
+#: options-init.php:461 options-init.php:477 options-init.php:521
+#: options-init.php:537 options-init.php:567 options-init.php:579
+#: options-init.php:599 options-init.php:631 options-init.php:644
+msgid ""
+"Once added be carefull editing next time. This key Should be same in app "
+"header."
+msgstr ""
+
+#: options-init.php:473
+msgid "Enter Your Android Secret Code Here"
+msgstr ""
+
+#: options-init.php:479 options-init.php:539
+msgid "Just a random number generated by you for app security."
+msgstr ""
+
+#: options-init.php:486
+msgid "IOS Key Settings"
+msgstr ""
+
+#: options-init.php:498
+msgid ""
+"Below section is only for if you have purchased IOS App. Then turn it on and "
+"enter the purchase code in below text field that will appears."
+msgstr ""
+
+#: options-init.php:503
+msgid "For IOS App"
+msgstr ""
+
+#: options-init.php:505
+msgid "If you have purchased the ios app."
+msgstr ""
+
+#: options-init.php:516
+msgid "Enter You IOS Purchase Code Here"
+msgstr ""
+
+#: options-init.php:518
+msgid ""
+"Your IOS item purchase code got from codecanyon. You have purchased the item "
+"seprately."
+msgstr ""
+
+#: options-init.php:533
+msgid "Enter Your IOS Secret Code Here"
+msgstr ""
+
+#: options-init.php:546
+msgid "Strips Key Settings"
+msgstr ""
+
+#: options-init.php:557
+msgid "Below section is Other API and Payment settings"
+msgstr ""
+
+#: options-init.php:562
+msgid "Enter Your Stripe Publishable key Here"
+msgstr ""
+
+#: options-init.php:564
+msgid "This will use in app"
+msgstr ""
+
+#: options-init.php:574
+msgid "Enter Your Stripe Secret key Here"
+msgstr ""
+
+#: options-init.php:576
+msgid "This will use at server for varification"
+msgstr ""
+
+#: options-init.php:587
+msgid "YouTube Key Settings"
+msgstr ""
+
+#: options-init.php:595
+msgid "Enter Your Youtube Key"
+msgstr ""
+
+#: options-init.php:608
+msgid "Paypal Settings"
+msgstr ""
+
+#: options-init.php:617
+msgid "Paypal Mode"
+msgstr ""
+
+#: options-init.php:619
+msgid "Live"
+msgstr ""
+
+#: options-init.php:620
+msgid "Sandbox"
+msgstr ""
+
+#: options-init.php:627
+msgid "Enter Your Paypal Key"
+msgstr ""
+
+#: options-init.php:633
+msgid "Enter you paypal client id here"
+msgstr ""
+
+#: options-init.php:640
+msgid "Enter Your Paypal Secret"
+msgstr ""
+
+#: options-init.php:646
+msgid "Enter you paypal Secret id here"
+msgstr ""
+
+#: options-init.php:653
+msgid "Merchant Name"
+msgstr ""
+
+#: options-init.php:655
+msgid "Enter the merchant name"
+msgstr ""
+
+#: options-init.php:660
+msgid "Account Currency"
+msgstr ""
+
+#: options-init.php:662
+msgid "Currency name i.e. USD Supported currency list here: "
+msgstr ""
+
+#: options-init.php:667
+msgid "Privecy Url"
+msgstr ""
+
+#: options-init.php:669 options-init.php:676
+msgid "Example link "
+msgstr ""
+
+#: options-init.php:674
+msgid "Agreement Url"
+msgstr ""
+
+#: options-init.php:684
+msgid "InApp Purchase Settings"
+msgstr ""
+
+#: options-init.php:693
+msgid "Android InApp Purchase"
+msgstr ""
+
+#: options-init.php:709
+msgid ""
+"Go to Application then you will see Development tools option on the left "
+"side of menu. Click this option now navigate to Services &APIs. Now you will "
+"Licensing & in-app billing section copy the key from here."
+msgstr ""
+
+#: options-init.php:720
+msgid "Your Android InApp Secret Code Here"
+msgstr ""
+
+#: options-init.php:722 options-init.php:748
+msgid ""
+"Enter the secret code you got from store. While copy paste please make sure "
+"there is no white space."
+msgstr ""
+
+#: options-init.php:725 options-init.php:751
+msgid "Once added be carefull editing next time."
+msgstr ""
+
+#: options-init.php:733
+msgid "AppStore InApp Purchase"
+msgstr ""
+
+#: options-init.php:735
+msgid "If you have purchased the AppStore app."
+msgstr ""
+
+#: options-init.php:746
+msgid "Your AppStore InApp Secret Code Here"
+msgstr ""
+
+#: options-init.php:805
+msgid "Thank You Settings"
+msgstr ""
+
+#: options-init.php:814
+msgid "Thank You Title"
+msgstr ""
+
+#: options-init.php:815
+msgid "Thank You For Your Order"
+msgstr ""
+
+#: options-init.php:821
+msgid "Ads/Reporting Settings"
+msgstr ""
+
+#: options-init.php:831
+msgid "Ads Settings"
+msgstr ""
+
+#: options-init.php:841
+msgid "Ads Setting (AdMob)"
+msgstr ""
+
+#: options-init.php:842
+msgid "Here you can set the AdMob settings for the app"
+msgstr ""
+
+#: options-init.php:848
+msgid "Show Ads"
+msgstr ""
+
+#: options-init.php:849 options-init.php:1041
+msgid "Trun ads on or off."
+msgstr ""
+
+#: options-init.php:869
+msgid "Show Banner Ads"
+msgstr ""
+
+#: options-init.php:870
+msgid "Turn on or off for banner ads"
+msgstr ""
+
+#: options-init.php:882
+msgid "Banner Ad Position"
+msgstr ""
+
+#: options-init.php:889 options-init.php:1457
+msgid "Top"
+msgstr ""
+
+#: options-init.php:890 options-init.php:1459
+msgid "Bottom"
+msgstr ""
+
+#: options-init.php:899
+msgid "Enter Your Ad Key (banner) Android"
+msgstr ""
+
+#: options-init.php:913 options-init.php:935
+msgid ""
+"Please make sure you are putting correct ad id your selected above banner"
+msgstr ""
+
+#: options-init.php:921
+msgid "Enter Your Ad Key (banner) IOS"
+msgstr ""
+
+#: options-init.php:942
+msgid "Show Initial Ads"
+msgstr ""
+
+#: options-init.php:943
+msgid "Turn on or off for initial ads"
+msgstr ""
+
+#: options-init.php:955
+msgid "Enter Your Ad Key (initial) Android"
+msgstr ""
+
+#: options-init.php:969 options-init.php:989
+msgid ""
+"Please make sure you are putting correct ad id your selected above "
+"interstital"
+msgstr ""
+
+#: options-init.php:975
+msgid "Enter Your Ad Key (initial) IOS"
+msgstr ""
+
+#: options-init.php:995
+msgid "Show 1st Ad After"
+msgstr ""
+
+#: options-init.php:996 options-init.php:1009
+msgid "Minumim value should be 20"
+msgstr ""
+
+#: options-init.php:1003
+msgid "Show 1st ad after specific time. In seconds 1 is for 1 second"
+msgstr ""
+
+#: options-init.php:1008
+msgid "Show Ad After"
+msgstr ""
+
+#: options-init.php:1016
+msgid "Show ads next time after specific time. In seconds 1 is for 1 second"
+msgstr ""
+
+#: options-init.php:1023
+msgid "Analytics Settings"
+msgstr ""
+
+#: options-init.php:1033
+msgid "App Analytics"
+msgstr ""
+
+#: options-init.php:1034
+msgid "Below you can setup analytics for the app."
+msgstr ""
+
+#: options-init.php:1040
+msgid "Make Analytics"
+msgstr ""
+
+#: options-init.php:1048
+msgid "Analytics ID"
+msgstr ""
+
+#: options-init.php:1055
+msgid "Put analytics id here i.e."
+msgstr ""
+
+#: options-init.php:1063
+msgid "Firebase Settings"
+msgstr ""
+
+#: options-init.php:1073
+msgid "Puch Nofifications"
+msgstr ""
+
+#: options-init.php:1074
+msgid "Below you can setup Puch Nofifications for the app."
+msgstr ""
+
+#: options-init.php:1079
+msgid "Firebase API KEY"
+msgstr ""
+
+#: options-init.php:1081
+msgid "Put firebase api key"
+msgstr ""
+
+#: options-init.php:1089
+msgid "Menu Settings"
+msgstr ""
+
+#: options-init.php:1098
+msgid "Turn Custom Menu"
+msgstr ""
+
+#: options-init.php:1100
+msgid "Turn on custom menu settings"
+msgstr ""
+
+#: options-init.php:1111
+msgid "Menu Title Control"
+msgstr ""
+
+#: options-init.php:1112
+msgid "Chnage menu title to what you want."
+msgstr ""
+
+#: options-init.php:1115
+msgid "Home"
+msgstr ""
+
+#: options-init.php:1116
+msgid "Profile"
+msgstr ""
+
+#: options-init.php:1117
+msgid "Advance Search"
+msgstr ""
+
+#: options-init.php:1118 options-init.php:1156 options-init.php:1785
+msgid "Messages"
+msgstr ""
+
+#: options-init.php:1119
+msgid "My Ads"
+msgstr ""
+
+#: options-init.php:1120
+msgid "Inactive Ads"
+msgstr ""
+
+#: options-init.php:1121 options-init.php:1410 options-init.php:1419
+#: options-init.php:2361
+msgid "Featured Ads"
+msgstr ""
+
+#: options-init.php:1122
+msgid "Fav Ads"
+msgstr ""
+
+#: options-init.php:1123
+msgid "Packages"
+msgstr ""
+
+#: options-init.php:1125
+msgid "Pages"
+msgstr ""
+
+#: options-init.php:1127
+msgid "Others"
+msgstr ""
+
+#: options-init.php:1128 options-init.php:1168
+msgid "Blog"
+msgstr ""
+
+#: options-init.php:1129
+msgid "Logout"
+msgstr ""
+
+#: options-init.php:1130
+msgid "Login"
+msgstr ""
+
+#: options-init.php:1131
+msgid "Register"
+msgstr ""
+
+#: options-init.php:1139
+msgid "Show Message Count"
+msgstr ""
+
+#: options-init.php:1141
+msgid "Turn on/off Show Message Count in menu."
+msgstr ""
+
+#: options-init.php:1147
+msgid "Hide From Menu"
+msgstr ""
+
+#: options-init.php:1149
+msgid "You can hide the below items from the menu."
+msgstr ""
+
+#: options-init.php:1162
+msgid "Package"
+msgstr ""
+
+#: options-init.php:1176 options-init.php:1186
+msgid "Home Screen"
+msgstr ""
+
+#: options-init.php:1185
+msgid "Screen Title"
+msgstr ""
+
+#: options-init.php:1187
+msgid "Set the title for homescreen"
+msgstr ""
+
+#: options-init.php:1194
+msgid "Sortable Settings"
+msgstr ""
+
+#: options-init.php:1204
+msgid "Sort Home Screen Options"
+msgstr ""
+
+#: options-init.php:1210
+msgid "Home Sortable"
+msgstr ""
+
+#: options-init.php:1212
+msgid "Sort home sections here"
+msgstr ""
+
+#: options-init.php:1223
+msgid "Sortable Sections"
+msgstr ""
+
+#: options-init.php:1224
+msgid "Sort section layouts on homescreen"
+msgstr ""
+
+#: options-init.php:1226 options-init.php:1235
+msgid "Category Icons"
+msgstr ""
+
+#: options-init.php:1227
+msgid "Featured Slider"
+msgstr ""
+
+#: options-init.php:1228 options-init.php:1474 options-init.php:1495
+#: options-init.php:1518
+msgid "Latest Ads"
+msgstr ""
+
+#: options-init.php:1229
+msgid "Category Slider Ads"
+msgstr ""
+
+#: options-init.php:1230
+msgid "Locations Icons"
+msgstr ""
+
+#: options-init.php:1231 options-init.php:1553 options-init.php:1576
+msgid "Nearby Ads"
+msgstr ""
+
+#: options-init.php:1232 options-init.php:1660 options-init.php:1693
+msgid "Blog/News"
+msgstr ""
+
+#: options-init.php:1236
+msgid "Simple Ads"
+msgstr ""
+
+#: options-init.php:1244
+msgid "Home Search Section"
+msgstr ""
+
+#: options-init.php:1246
+msgid ""
+"No, sorting option is available. If you turn it on it will always show on "
+"top."
+msgstr ""
+
+#: options-init.php:1253
+msgid "Show Search Section"
+msgstr ""
+
+#: options-init.php:1255
+msgid "Show search section on homescreen at top."
+msgstr ""
+
+#: options-init.php:1266
+msgid "Search Main Text"
+msgstr ""
+
+#: options-init.php:1267
+msgid "Search From Thousands Of Ads"
+msgstr ""
+
+#: options-init.php:1277
+msgid "Search Sub Text"
+msgstr ""
+
+#: options-init.php:1278
+msgid "Here You can search"
+msgstr ""
+
+#: options-init.php:1288
+msgid "Input Placehoder"
+msgstr ""
+
+#: options-init.php:1289
+msgid "Search with keywords..."
+msgstr ""
+
+#: options-init.php:1300
+msgid "Background Image"
+msgstr ""
+
+#: options-init.php:1302
+msgid "You must select the section background image here"
+msgstr ""
+
+#: options-init.php:1313
+msgid "Categories Icons"
+msgstr ""
+
+#: options-init.php:1322
+msgid "Categories Columns"
+msgstr ""
+
+#: options-init.php:1323 options-init.php:2305
+msgid "Select number of info columns"
+msgstr ""
+
+#: options-init.php:1325
+msgid "3 Column"
+msgstr ""
+
+#: options-init.php:1326
+msgid "4 Columns"
+msgstr ""
+
+#: options-init.php:1342 options-init.php:1711
+msgid "Select Categories"
+msgstr ""
+
+#: options-init.php:1343
+msgid "Select categories to show on home screen as icons."
+msgstr ""
+
+#: options-init.php:1350
+msgid "Default Category Icon"
+msgstr ""
+
+#: options-init.php:1352
+msgid ""
+"Default Icon For categories on homepage. You can leave it empty if you want "
+"to show default for app."
+msgstr ""
+
+#: options-init.php:1353
+msgid "Dimensions: 128 X 128"
+msgstr ""
+
+#: options-init.php:1363
+msgid "Categories Slider"
+msgstr ""
+
+#: options-init.php:1380
+msgid "Select Slider Categories"
+msgstr ""
+
+#: options-init.php:1385
+msgid "Slider Posts Limit"
+msgstr ""
+
+#: options-init.php:1386 options-init.php:1443 options-init.php:1519
+#: options-init.php:1577 options-init.php:1724
+msgid "On homepage"
+msgstr ""
+
+#: options-init.php:1387
+msgid "Select Number of slider posts"
+msgstr ""
+
+#: options-init.php:1421
+msgid "Show featured ads slider"
+msgstr ""
+
+#: options-init.php:1431 options-init.php:2372
+msgid "Featured Ads Section Title"
+msgstr ""
+
+#: options-init.php:1442 options-init.php:2383
+msgid "Featured Posts"
+msgstr ""
+
+#: options-init.php:1444 options-init.php:2385
+msgid "Select Number of featured posts"
+msgstr ""
+
+#: options-init.php:1455
+msgid "Featured Ads Position"
+msgstr ""
+
+#: options-init.php:1458
+msgid "Middle"
+msgstr ""
+
+#: options-init.php:1485
+msgid "Latest Ads Section"
+msgstr ""
+
+#: options-init.php:1497
+msgid "Show latest ads slider"
+msgstr ""
+
+#: options-init.php:1507
+msgid "Latest Ads Section Title"
+msgstr ""
+
+#: options-init.php:1520
+msgid "Select Number of latest ads"
+msgstr ""
+
+#: options-init.php:1532
+msgid "Near By Ads"
+msgstr ""
+
+#: options-init.php:1543
+msgid "Near By Ads Section"
+msgstr ""
+
+#: options-init.php:1555
+msgid "Show near by ads slider"
+msgstr ""
+
+#: options-init.php:1565
+msgid "Nearby Ads Section Title"
+msgstr ""
+
+#: options-init.php:1578
+msgid "Select max number of nearby ads"
+msgstr ""
+
+#: options-init.php:1589
+msgid "Ads Locations"
+msgstr ""
+
+#: options-init.php:1599
+msgid "Locations icons Section"
+msgstr ""
+
+#: options-init.php:1609
+msgid "Location Section Title"
+msgstr ""
+
+#: options-init.php:1610
+msgid "Locations"
+msgstr ""
+
+#: options-init.php:1639
+msgid "Select Locations Categories"
+msgstr ""
+
+#: options-init.php:1640
+msgid "Select locations you want to show"
+msgstr ""
+
+#: options-init.php:1647
+msgid "Default Location Icon"
+msgstr ""
+
+#: options-init.php:1649
+msgid ""
+"Default Icon For Location on homepage.  You can leave it empty if you want "
+"to show default for app."
+msgstr ""
+
+#: options-init.php:1650
+msgid "Dimensions: 230 x 230"
+msgstr ""
+
+#: options-init.php:1670
+msgid "Blog and news section. (You must on Home Sortable to show blogs)"
+msgstr ""
+
+#: options-init.php:1680
+msgid "News/Blog"
+msgstr ""
+
+#: options-init.php:1682
+msgid "Show News/Blog ads slider"
+msgstr ""
+
+#: options-init.php:1692
+msgid "Blog/News Setion Title"
+msgstr ""
+
+#: options-init.php:1712
+msgid ""
+"Select categories to show in the blog/news section. Leave empty if you want "
+"to show from all."
+msgstr ""
+
+#: options-init.php:1723
+msgid "Number of Posts"
+msgstr ""
+
+#: options-init.php:1725
+msgid "Select max number of Posts to show"
+msgstr ""
+
+#: options-init.php:1753
+msgid "Ad's General Settings"
+msgstr ""
+
+#: options-init.php:1761
+msgid "Allowed all countries"
+msgstr ""
+
+#: options-init.php:1769
+msgid "Select Countries"
+msgstr ""
+
+#: options-init.php:1777
+msgid "You can select only 1 country."
+msgstr ""
+
+#: options-init.php:1782
+msgid "Communications Mode"
+msgstr ""
+
+#: options-init.php:1784
+msgid "Phone"
+msgstr ""
+
+#: options-init.php:1786
+msgid "Both"
+msgstr ""
+
+#: options-init.php:1793
+msgid "Package order auto approval"
+msgstr ""
+
+#: options-init.php:1794
+msgid "after payment"
+msgstr ""
+
+#: options-init.php:1800
+msgid "Send email on Ad Post"
+msgstr ""
+
+#: options-init.php:1806
+msgid "Email for notification."
+msgstr ""
+
+#: options-init.php:1817
+msgid "Send email on message"
+msgstr ""
+
+#: options-init.php:1818
+msgid "When someone drop a message on ad then email send to concern user."
+msgstr ""
+
+#: options-init.php:1825
+msgid "Currency"
+msgstr ""
+
+#: options-init.php:1826
+msgid "List of Currency"
+msgstr ""
+
+#: options-init.php:1826
+msgid "You can use HTML code or text as well like USD etc"
+msgstr ""
+
+#: options-init.php:1836
+msgid "Price direction"
+msgstr ""
+
+#: options-init.php:1842
+msgid "Thousands Separator"
+msgstr ""
+
+#: options-init.php:1848
+msgid "Decimals"
+msgstr ""
+
+#: options-init.php:1849
+msgid "It should be 0 for no decimals."
+msgstr ""
+
+#: options-init.php:1855
+msgid "Decimals Separator"
+msgstr ""
+
+#: options-init.php:1865
+msgid "Ad Approval"
+msgstr ""
+
+#: options-init.php:1875
+msgid "Ad Update Approval"
+msgstr ""
+
+#: options-init.php:1881
+msgid "Email to Ad owner on approval"
+msgstr ""
+
+#: options-init.php:1888
+msgid "Report ad Options"
+msgstr ""
+
+#: options-init.php:1894
+msgid "Ad Report Limit"
+msgstr ""
+
+#: options-init.php:1895
+msgid "Only integer value without spaces."
+msgstr ""
+
+#: options-init.php:1901
+msgid "Action on Ad Report Limit"
+msgstr ""
+
+#: options-init.php:1911
+msgid "Email"
+msgstr ""
+
+#: options-init.php:1912
+msgid "Email where you want to get notify."
+msgstr ""
+
+#: options-init.php:1926
+msgid "Default Image"
+msgstr ""
+
+#: options-init.php:1928
+msgid "If there is no image of ad then this will be show."
+msgstr ""
+
+#: options-init.php:1929
+msgid "Dimensions: 300 x 225"
+msgstr ""
+
+#: options-init.php:1938
+msgid "Set Image Sizes for listings"
+msgstr ""
+
+#: options-init.php:1941 options-init.php:1956
+msgid "Size 2"
+msgstr ""
+
+#: options-init.php:1942
+msgid "Size 3"
+msgstr ""
+
+#: options-init.php:1943
+msgid "Size 4"
+msgstr ""
+
+#: options-init.php:1944
+msgid "Size 5"
+msgstr ""
+
+#: options-init.php:1947 options-init.php:1959
+msgid "Change with caution we only recommend default."
+msgstr ""
+
+#: options-init.php:1953
+msgid "Set Image Sizes for Ad Details"
+msgstr ""
+
+#: options-init.php:1966
+msgid "Ad Post Settings"
+msgstr ""
+
+#: options-init.php:1976
+msgid "Turn On Category Template"
+msgstr ""
+
+#: options-init.php:1982
+msgid "Post unlimited free ads"
+msgstr ""
+
+#: options-init.php:1983
+msgid "For Administrator"
+msgstr ""
+
+#: options-init.php:1989
+msgid "Strict image mode"
+msgstr ""
+
+#: options-init.php:1990
+msgid "Not allowed less than 760x410"
+msgstr ""
+
+#: options-init.php:1996
+msgid "Free Ads"
+msgstr ""
+
+#: options-init.php:1997 options-init.php:2012 options-init.php:2021
+#: options-init.php:2029 options-init.php:2044 options-init.php:2051
+msgid "For new user"
+msgstr ""
+
+#: options-init.php:2004
+msgid "Free Ads limit"
+msgstr ""
+
+#: options-init.php:2013 options-init.php:2037 options-init.php:2059
+msgid "It must be an inter value, -1 means unlimited."
+msgstr ""
+
+#: options-init.php:2020
+msgid "Free Featured Ads"
+msgstr ""
+
+#: options-init.php:2028
+msgid "Featured Ads limit"
+msgstr ""
+
+#: options-init.php:2043
+msgid "Free Bump Ads"
+msgstr ""
+
+#: options-init.php:2050
+msgid "Bump Ads limit"
+msgstr ""
+
+#: options-init.php:2065
+msgid "Free Bump Ads for all users"
+msgstr ""
+
+#: options-init.php:2066
+msgid "witout any package/restriction."
+msgstr ""
+
+#: options-init.php:2073
+msgid "Free package validity"
+msgstr ""
+
+#: options-init.php:2074
+msgid "In days for new user"
+msgstr ""
+
+#: options-init.php:2082
+msgid "It must be an inter value, -1 means never expired."
+msgstr ""
+
+#: options-init.php:2089
+msgid "Simple ad remove after"
+msgstr ""
+
+#: options-init.php:2090 options-init.php:2098
+msgid "In DAYS"
+msgstr ""
+
+#: options-init.php:2091 options-init.php:2099
+msgid "Only integer value without spaces -1 means never expired."
+msgstr ""
+
+#: options-init.php:2097
+msgid "Feature Ad Expired"
+msgstr ""
+
+#: options-init.php:2105
+msgid "Ad image set limit"
+msgstr ""
+
+#: options-init.php:2139
+msgid "Per Image Upload Limit"
+msgstr ""
+
+#: options-init.php:2140
+msgid "Must be equals or less than (Ad image set limit)"
+msgstr ""
+
+#: options-init.php:2147
+msgid "Ad image max size"
+msgstr ""
+
+#: options-init.php:2175
+msgid "Display Condition Taxonomy"
+msgstr ""
+
+#: options-init.php:2181
+msgid "Display Warranty Taxonomy"
+msgstr ""
+
+#: options-init.php:2187
+msgid "Latitude & Longitude"
+msgstr ""
+
+#: options-init.php:2188
+msgid "This will be display on ad post page for pin point map"
+msgstr ""
+
+#: options-init.php:2194
+msgid "Latitude"
+msgstr ""
+
+#: options-init.php:2195 options-init.php:2207
+msgid "for default map."
+msgstr ""
+
+#: options-init.php:2206
+msgid "Longitude"
+msgstr ""
+
+#: options-init.php:2218
+msgid "Price Type"
+msgstr ""
+
+#: options-init.php:2219
+msgid "Display Price type option."
+msgstr ""
+
+#: options-init.php:2226
+msgid "Fixed"
+msgstr ""
+
+#: options-init.php:2227
+msgid "Negotiable"
+msgstr ""
+
+#: options-init.php:2228
+msgid "Price on call"
+msgstr ""
+
+#: options-init.php:2229
+msgid "Auction"
+msgstr ""
+
+#: options-init.php:2230
+msgid "Free"
+msgstr ""
+
+#: options-init.php:2231
+msgid "No price"
+msgstr ""
+
+#: options-init.php:2235
+msgid "Price Types"
+msgstr ""
+
+#: options-init.php:2241
+msgid "Custom Price Type"
+msgstr ""
+
+#: options-init.php:2242
+msgid "Separated by | like option 1|option 2"
+msgstr ""
+
+#: options-init.php:2249
+msgid "Update Ad Notice"
+msgstr ""
+
+#: options-init.php:2255
+msgid "Allow make featured ad"
+msgstr ""
+
+#: options-init.php:2256 options-init.php:2263
+msgid "on ad post."
+msgstr ""
+
+#: options-init.php:2262
+msgid "Featured ad description"
+msgstr ""
+
+#: options-init.php:2275
+msgid "Bad Words Filter"
+msgstr ""
+
+#: options-init.php:2276
+msgid "comma separated"
+msgstr ""
+
+#: options-init.php:2277
+msgid "word1,word2"
+msgstr ""
+
+#: options-init.php:2278
+msgid "This words will be removed from AD Title and Description"
+msgstr ""
+
+#: options-init.php:2284
+msgid "Bad Words Replace Word"
+msgstr ""
+
+#: options-init.php:2285
+msgid ""
+"This words will be replace with above bad words list from AD Title and "
+"Description"
+msgstr ""
+
+#: options-init.php:2293
+msgid "Ad View Settings"
+msgstr ""
+
+#: options-init.php:2303
+msgid "Info Columns"
+msgstr ""
+
+#: options-init.php:2304 options-init.php:2339 options-init.php:2384
+msgid "On ad details page"
+msgstr ""
+
+#: options-init.php:2307
+msgid "1 Column"
+msgstr ""
+
+#: options-init.php:2308
+msgid "2 Columns"
+msgstr ""
+
+#: options-init.php:2316
+msgid "Related Ads"
+msgstr ""
+
+#: options-init.php:2327
+msgid "Related Ads Section Title"
+msgstr ""
+
+#: options-init.php:2338
+msgid "Related Posts"
+msgstr ""
+
+#: options-init.php:2340
+msgid "Select Number of related posts"
+msgstr ""
+
+#: options-init.php:2351
+msgid "Ad Search Settings"
+msgstr ""
+
+#: options-init.php:2397
+msgid "Ad Rating Settings"
+msgstr ""
+
+#: options-init.php:2407
+msgid "Rating on ad"
+msgstr ""
+
+#: options-init.php:2413
+msgid "Allow update the rating"
+msgstr ""
+
+#: options-init.php:2426
+msgid "Rating section title"
+msgstr ""
+
+#: options-init.php:2439 options-init.php:2452
+msgid "Email to Author on rating"
+msgstr ""
+
+#: options-init.php:2466
+msgid "Rating show at most"
+msgstr ""
+
+#: options-init.php:2487
+msgid "Woo Products"
+msgstr ""
+
+#: options-init.php:2505
+msgid "Select Products"
+msgstr ""
+
+#: options-init.php:2511
+msgid "Select Payment Packages"
+msgstr ""
+
+#: options-init.php:2524
+msgid "Payment Methods For Android App"
+msgstr ""
+
+#: options-init.php:2525
+msgid "Select the payment methods you want to add."
+msgstr ""
+
+#: options-init.php:2542
+msgid "Payment Methods IOS App"
+msgstr ""
+
+#: options-init.php:2543
+msgid "Note ios only uses InApp Purchase"
+msgstr ""
+
+#: options-init.php:2679
+msgid "Users"
+msgstr ""
+
+#: options-init.php:2688
+msgid "Phone verfication"
+msgstr ""
+
+#: options-init.php:2690
+msgid ""
+"If phone verification is on then system put verified batch to ad details on "
+"number so other can see this number is verified."
+msgstr ""
+
+#: options-init.php:2695
+msgid "Resend security code"
+msgstr ""
+
+#: options-init.php:2696
+msgid "In seconds"
+msgstr ""
+
+#: options-init.php:2697
+msgid "Only integer value without spaces, 30 means 30-seconds"
+msgstr ""
+
+#: options-init.php:2710
+msgid "Change phone number while ad posting."
+msgstr ""
+
+#: options-init.php:2711
+msgid ""
+"If off then only user profile number will be display and can not be "
+"changeable."
+msgstr ""
+
+#: options-init.php:2718
+msgid "New User Email to Admin"
+msgstr ""
+
+#: options-init.php:2725
+msgid "Welcome Email to User"
+msgstr ""
+
+#: options-init.php:2732
+msgid "New user email verification"
+msgstr ""
+
+#: options-init.php:2734
+msgid ""
+"If verfication on then please update your new user email template by "
+"verification link."
+msgstr ""
+
+#: options-init.php:2743
+msgid "Select Page"
+msgstr ""
+
+#: options-init.php:2744
+msgid "Terms and Conditions"
+msgstr ""
+
+#: options-init.php:2745
+msgid "Specially for General Data Protection Regulation (GDPR)"
+msgstr ""
+
+#: options-init.php:2750
+msgid "Term and Condition Text"
+msgstr ""
+
+#: options-init.php:2752
+msgid ""
+"Terms and Condition text next to checkbox. Leave empty if you want to show "
+"default text"
+msgstr ""
+
+#: options-init.php:2757
+msgid "Show Delete button"
+msgstr ""
+
+#: options-init.php:2759
+msgid ""
+"Show delete button on user profile. Due to General Data Protection "
+"Regulation (GDPR) policy. Note: This will delete the entire data from the "
+"database and can not be recover again."
+msgstr ""
+
+#: options-init.php:2770
+msgid "Delete Popup Text"
+msgstr ""
+
+#: options-init.php:2772
+msgid "Popup text after delete link clicked."
+msgstr ""
+
+#: options-init.php:2778
+msgid "Block User"
+msgstr ""
+
+#: options-init.php:2780
+msgid "Allow users to block anyone and stop seeing his ads."
+msgstr ""
+
+#: options-init.php:2789
+msgid "Bidding Settings"
+msgstr ""
+
+#: options-init.php:2797
+msgid "Enable Bidding"
+msgstr ""
+
+#: options-init.php:2803
+msgid "Give bidding option to user"
+msgstr ""
+
+#: options-init.php:2814
+msgid "Bidding Timer"
+msgstr ""
+
+#: options-init.php:2825
+msgid "Top bidder limit"
+msgstr ""
+
+#: options-init.php:2833
+msgid "If you select 0 it will hide the tab."
+msgstr ""
+
+#: options-init.php:2838
+msgid "User Section Title"
+msgstr ""
+
+#: options-init.php:2849
+msgid "Email to Ad author"
+msgstr ""
+
+#: options-init.php:2850
+msgid "on bid"
+msgstr ""
+
+#: options-init.php:2861
+msgid "Section Title"
+msgstr ""
+
+#: options-init.php:2872
+msgid "Disclaimer note"
+msgstr ""
+
+#: options-init.php:2886
+msgid "Email Templates"
+msgstr ""
+
+#: options-init.php:2894
+msgid "New Ad Email"
+msgstr ""
+
+#: options-init.php:2896
+msgid "Send email to admin when ther is any new ad on the website"
+msgstr ""
+
+#: options-init.php:2902
+msgid "New Ad email subject"
+msgstr ""
+
+#: options-init.php:2903
+msgid "%site_name% , %ad_owner% , %ad_title% will be translated accordingly."
+msgstr ""
+
+#: options-init.php:2909
+msgid "New Ad FROM"
+msgstr ""
+
+#: options-init.php:2910 options-init.php:2940 options-init.php:2971
+#: options-init.php:3002 options-init.php:3034 options-init.php:3065
+msgid "FROM: NAME valid@email.com is compulsory as we gave in default."
+msgstr ""
+
+#: options-init.php:2916
+msgid "New Ad Posted Message"
+msgstr ""
+
+#: options-init.php:2917 options-init.php:2978
+msgid ""
+"%site_name% , %ad_owner% , %ad_title% , %ad_link% will be translated "
+"accordingly."
+msgstr ""
+
+#: options-init.php:2924
+msgid "New Message On Ad"
+msgstr ""
+
+#: options-init.php:2932
+msgid "New Message email subject"
+msgstr ""
+
+#: options-init.php:2933 options-init.php:2964
+msgid "%site_name% , %ad_title% will be translated accordingly."
+msgstr ""
+
+#: options-init.php:2939
+msgid "New Message FROM"
+msgstr ""
+
+#: options-init.php:2946
+msgid "New Message template"
+msgstr ""
+
+#: options-init.php:2947
+msgid ""
+"%site_name% , %message% , %sender_name%, %ad_title% , %ad_link% will be "
+"translated accordingly."
+msgstr ""
+
+#: options-init.php:2954
+msgid "Ad Report Email"
+msgstr ""
+
+#: options-init.php:2963
+msgid "Ad report email subject"
+msgstr ""
+
+#: options-init.php:2970
+msgid "Ad report email FROM"
+msgstr ""
+
+#: options-init.php:2977
+msgid "Ad Report template"
+msgstr ""
+
+#: options-init.php:2986
+msgid "Reset Password Email"
+msgstr ""
+
+#: options-init.php:2994
+msgid "Reset Password email subject"
+msgstr ""
+
+#: options-init.php:2995 options-init.php:3027 options-init.php:3058
+msgid "%site_name% will be translated accordingly."
+msgstr ""
+
+#: options-init.php:3001
+msgid "Reset Password email FROM"
+msgstr ""
+
+#: options-init.php:3008
+msgid "Reset Password template"
+msgstr ""
+
+#: options-init.php:3009
+msgid "%site_name% , %user% , %reset_link% will be translated accordingly."
+msgstr ""
+
+#: options-init.php:3017
+msgid "New Rating Email"
+msgstr ""
+
+#: options-init.php:3026 options-init.php:3180
+msgid "Rating email subject"
+msgstr ""
+
+#: options-init.php:3033
+msgid "New rating email FROM"
+msgstr ""
+
+#: options-init.php:3040
+msgid "New rating template"
+msgstr ""
+
+#: options-init.php:3041
+msgid ""
+"%site_name% , %receiver% , %rator% , %rating% , %comments% , %rating_link% "
+"will be translated accordingly."
+msgstr ""
+
+#: options-init.php:3048
+msgid "New Bid Email"
+msgstr ""
+
+#: options-init.php:3057
+msgid "Bid email subject"
+msgstr ""
+
+#: options-init.php:3064
+msgid "Bid email FROM"
+msgstr ""
+
+#: options-init.php:3071
+msgid "Bid email template"
+msgstr ""
+
+#: options-init.php:3072
+msgid ""
+"%site_name% , %receiver% , %bidder% , %bid% , %comments% , %bid_link% will "
+"be translated accordingly."
+msgstr ""
+
+#: options-init.php:3080
+msgid "New User Registraction Email "
+msgstr ""
+
+#: options-init.php:3082
+msgid "Send email to the admin when someone registred on the site"
+msgstr ""
+
+#: options-init.php:3088
+msgid "New user email template subject for Admin"
+msgstr ""
+
+#: options-init.php:3094
+msgid "New user email FROM for Admin"
+msgstr ""
+
+#: options-init.php:3095 options-init.php:3125 options-init.php:3156
+#: options-init.php:3187 options-init.php:3223
+msgid "NAME valid@email.com is compulsory as we gave in default."
+msgstr ""
+
+#: options-init.php:3101
+msgid "New user email template for Admin"
+msgstr ""
+
+#: options-init.php:3102
+msgid "%site_name% , %display_name%, %email% will be translated accordingly."
+msgstr ""
+
+#: options-init.php:3110
+msgid "User Welcome / Confirmation Email"
+msgstr ""
+
+#: options-init.php:3112
+msgid ""
+"Send welcome or account confirmation email to the user when someone registred"
+msgstr ""
+
+#: options-init.php:3118
+msgid "New user email template subject"
+msgstr ""
+
+#: options-init.php:3124
+msgid "New user email FROM"
+msgstr ""
+
+#: options-init.php:3131
+msgid "New user email template"
+msgstr ""
+
+#: options-init.php:3132
+msgid ""
+"%site_name% , %user_name% %display_name% %verification_link% will be "
+"translated accordingly."
+msgstr ""
+
+#: options-init.php:3140
+msgid "Ad Activation Email"
+msgstr ""
+
+#: options-init.php:3149
+msgid "Ad activation subject"
+msgstr ""
+
+#: options-init.php:3155
+msgid "Ad activation FROM"
+msgstr ""
+
+#: options-init.php:3162
+msgid "Ad activation message"
+msgstr ""
+
+#: options-init.php:3163
+msgid ""
+"%site_name% , %user_name%, %ad_title% ,  %ad_link% will be translated "
+"accordingly."
+msgstr ""
+
+#: options-init.php:3171
+msgid "New Rating Received Email"
+msgstr ""
+
+#: options-init.php:3186
+msgid "Rating FROM"
+msgstr ""
+
+#: options-init.php:3193
+msgid "Rating message"
+msgstr ""
+
+#: options-init.php:3199 options-init.php:3235
+msgid "will be translated accordingly."
+msgstr ""
+
+#: options-init.php:3207
+msgid "Rating Reply Email"
+msgstr ""
+
+#: options-init.php:3216
+msgid "Rating reply email subject"
+msgstr ""
+
+#: options-init.php:3222
+msgid "Rating reply FROM"
+msgstr ""
+
+#: options-init.php:3229
+msgid "Rating reply message"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Categories Images"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://zahlan.net/blog/2012/06/categories-images/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Categories Images Plugin allow you to add an image to category or any custom "
+"term."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Muhammad Said El Zahlan"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://zahlan.net/"
+msgstr ""

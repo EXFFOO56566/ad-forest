@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:right="16dp">
+        <shape android:shape="rectangle" >
+            <stroke android:width="2dp" android:color="@color/com_facebook_blue" />
+            <solid android:color="@color/com_facebook_blue"/>
+            <corners android:radius="5dp" />
+        </shape>
+    </item>
+</layer-list>

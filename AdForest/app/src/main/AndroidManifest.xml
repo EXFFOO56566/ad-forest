@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.scriptsbundle.adforest">
+
+    <uses-sdk tools:overrideLibrary="android.support.v17.leanback" />
+
+    <queries>
+        <intent>
+            <action android:name="android.media.action.IMAGE_CAPTURE" />
+        </intent>
+    </queries> <!-- for card.io card scanning -->
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="com.android.vending.BILLING" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission
+        android:name="android.permission.MANAGE_DOCUMENTS"
+        tools:ignore="ProtectedPermissions" />
+
+    <queries>
+        <intent>
+            <action android:name="com.google.android.youtube.api.service.START" />
+        </intent>
+    </queries>
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:screenOrientation="portrait"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+
+        <activity
+            android:name=".utills.WebViewActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".packages.PayPalCheckOut" />
+        <activity
+            android:name=".utills.OTPVerification"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".messages.WhizzChat.View.WhizzChatScreen"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".home.ChooseLocationActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".messages.WhizzChat.View.WhizzChatList"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".packages.AuthorizeNet" />
+        <activity android:name=".LinkedIn.LinkedInAuthenticationActivity" />
+        <activity
+            android:name=".packages.WorldPayIntegration"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".packages.PayHereIntegration" />
+        <activity
+            android:name=".packages.PayStack"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".home.ChooseLanguageActivity"
+            android:screenOrientation="nosensor"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".SplashScreen"
+            android:screenOrientation="nosensor">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".signinorup.MainActivity"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.facebook.CustomTabActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="@string/fb_login_protocol_scheme" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".home.HomeActivity"
+            android:screenOrientation="nosensor"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:uiOptions="splitActionBarWhenNarrow"
+            android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Search.SearchActivity"
+            android:screenOrientation="nosensor"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustPan">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.scriptsbundle.adforest.home.HomeActivity" />
+        </activity>
+        <activity
+            android:name=".messages.Message"
+            android:screenOrientation="nosensor"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.scriptsbundle.adforest.home.HomeActivity" />
+        </activity>
+        <activity
+            android:name=".messages.ChatActivity"
+            android:parentActivityName=".messages.Message"
+            android:screenOrientation="nosensor"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.scriptsbundle.adforest.messages.Message" />
+        </activity>
+        <activity
+            android:name=".home.AddNewAdPost"
+            android:parentActivityName=".home.HomeActivity"
+            android:screenOrientation="nosensor"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.scriptsbundle.adforest.home.HomeActivity" />
+        </activity>
+        <activity
+            android:name=".home.EditAdPost"
+            android:parentActivityName=".home.HomeActivity"
+            android:screenOrientation="nosensor"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.scriptsbundle.adforest.home.HomeActivity" />
+        </activity>
+        <activity
+            android:name=".packages.Thankyou"
+            android:screenOrientation="nosensor"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".ad_detail.Ad_detail_activity"
+            android:parentActivityName=".home.HomeActivity"
+            android:screenOrientation="nosensor"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustPan">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.scriptsbundle.adforest.home.HomeActivity" />
+        </activity>
+        <activity
+            android:name=".packages.StripePayment"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name=".packages.InAppPurchaseActivity"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name=".Shop.shopActivity"
+            android:screenOrientation="nosensor"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustPan">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.scriptsbundle.adforest.home.HomeActivity" />
+        </activity>
+        <activity
+            android:name=".Settings.Settings"
+            android:screenOrientation="nosensor">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.scriptsbundle.adforest.home.HomeActivity" />
+        </activity>
+        <activity
+            android:name=".ad_detail.full_screen_image.FullScreenViewActivity"
+            android:screenOrientation="nosensor"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name="com.braintreepayments.api.BraintreeBrowserSwitchActivity"
+            android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="com.scriptsbundle.adforest.braintree" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="@string/Admob_app_id" /> <!-- Google Analytcis -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyD-UWb1WhceMAVnHFe2PNdw49fyS7Yh9rQ" />
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <receiver
+            android:name="com.google.android.gms.analytics.AnalyticsReceiver"
+            android:enabled="true">
+            <intent-filter>
+                <action android:name="com.google.android.gms.analytics.ANALYTICS_DISPATCH" />
+            </intent-filter>
+        </receiver> <!-- Google Analytics -->
+        <!-- Firebase Notifications -->
+        <receiver
+            android:name="com.google.android.gms.analytics.CampaignTrackingReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".utills.NoInternet.NetwordStateManager">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+                <action android:name="android.net.wifi.WIFI_STATE_CHANGED" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.google.android.gms.analytics.AnalyticsService"
+            android:enabled="true"
+            android:exported="false" />
+        <service android:name="com.google.android.gms.analytics.CampaignTrackingService" />
+        <service
+            android:name=".Notification.MyFirebaseMessagingService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+    </application>
+
+</manifest>

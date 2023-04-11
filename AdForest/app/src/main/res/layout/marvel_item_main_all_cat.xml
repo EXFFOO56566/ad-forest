@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?><!--<androidx.cardview.widget.CardView -->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:id="@+id/card_items_cat"-->
+<!--    android:layout_width="wrap_content"-->
+<!--    android:layout_height="wrap_content"-->
+<!--    app:cardCornerRadius="10dp"-->
+<!--    app:cardElevation="15dp"-->
+<!--    app:cardUseCompatPadding="true">-->
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/parentView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="5dp">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_items_cat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:padding="5dp">
+
+            <!--            <de.hdodenhof.circleimageview.CircleImageView-->
+            <!--                android:id="@+id/thumbnail"-->
+            <!--                android:layout_width="60dp"-->
+            <!--                android:layout_height="60dp"-->
+            <!--                android:layout_centerHorizontal="true"-->
+            <!--                android:background="@drawable/bg_circle_cats"-->
+            <!--                android:cropToPadding="true"-->
+            <!--                android:src="@drawable/ic_linkedin" />-->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/roundCardView"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                app:cardCornerRadius="40dp"
+                app:cardElevation="1dp">
+
+                <ImageView
+                    android:id="@+id/thumbnail"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="@color/bg_gray"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/ic_linkedin" />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/roundCardView"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:padding="2dp"
+                android:text="iuytfjkljhg"
+                android:textColor="@color/black"
+                android:textSize="12sp" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout><!--</androidx.cardview.widget.CardView>-->

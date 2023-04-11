@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".utills.OTPVerification">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout
+        android:id="@+id/layout_header"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dm_20sp"
+        android:layout_width="match_parent">
+
+        <TextView
+            android:id="@+id/codeSent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="@dimen/dm_14sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_otp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginVertical="@dimen/dm_20sp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/editTextone"
+            android:layout_width="@dimen/dm_40sp"
+            android:layout_height="@dimen/dm_42sp"
+            android:inputType="number"
+            android:layout_marginHorizontal="5dp"
+            android:background="@drawable/image_border"
+            android:gravity="center"
+            android:maxLength="1"
+            android:nextFocusRight="@+id/editTexttwo">
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/editTexttwo"
+            android:layout_width="@dimen/dm_40sp"
+            android:layout_height="@dimen/dm_42sp"
+            android:layout_marginHorizontal="5dp"
+            android:background="@drawable/image_border"
+            android:nextFocusRight="@id/editTextthree"
+            android:gravity="center"
+            android:inputType="number"
+            android:maxLength="1" />
+
+        <EditText
+            android:id="@+id/editTextthree"
+            android:layout_width="@dimen/dm_40sp"
+            android:layout_height="@dimen/dm_42sp"
+            android:layout_marginHorizontal="5dp"
+            android:gravity="center"
+            android:background="@drawable/image_border"
+            android:nextFocusRight="@id/editTextFour"
+            android:inputType="number"
+            android:maxLength="1" />
+
+        <EditText
+            android:id="@+id/editTextFour"
+            android:layout_width="@dimen/dm_40sp"
+            android:layout_height="@dimen/dm_42sp"
+            android:layout_marginHorizontal="5dp"
+            android:background="@drawable/image_border"
+            android:gravity="center"
+            android:nextFocusRight="@id/editTextFive"
+            android:inputType="number"
+            android:maxLength="1" />
+
+        <EditText
+            android:id="@+id/editTextFive"
+            android:layout_width="@dimen/dm_40sp"
+            android:layout_height="@dimen/dm_42sp"
+            android:background="@drawable/image_border"
+            android:gravity="center"
+            android:layout_marginHorizontal="5dp"
+            android:nextFocusRight="@id/editTextSix"
+            android:inputType="number"
+            android:maxLength="1" />
+
+        <EditText
+            android:id="@+id/editTextSix"
+            android:layout_width="@dimen/dm_40sp"
+            android:layout_height="@dimen/dm_42sp"
+            android:layout_marginHorizontal="5dp"
+            android:gravity="center"
+            android:background="@drawable/image_border"
+            android:inputType="number"
+            android:maxLength="1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/timer"
+            android:textAlignment="center"
+            android:text="00:00"/>
+
+        <TextView
+            android:id="@+id/notReceived"
+            android:layout_width="wrap_content"
+            android:layout_marginEnd="1dp"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/tryAgain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/com_facebook_blue"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dm_42sp"
+            android:layout_marginTop="@dimen/dm_20sp"
+            android:textColor="@color/white"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginBottom="20dp"
+            android:textAllCaps="false"
+            android:layout_below="@+id/layout_otp" />
+
+        <ProgressBar
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginVertical="20dp"
+            android:id="@id/progress"/>
+    </LinearLayout>
+
+</LinearLayout>

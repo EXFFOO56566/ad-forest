@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".signinorup.MainViewRegisterFragment">
+    <LinearLayout
+        android:id="@+id/shimmerMain"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <com.facebook.shimmer.ShimmerFrameLayout
+            android:id="@+id/shimmerFrameLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:visibility="gone"
+            app:shimmer_base_alpha="0.5">
+
+            <!-- Adding 15 rows of placeholders -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <include layout="@layout/data_placeholder_layout" />
+
+                <include layout="@layout/data_placeholder_layout" />
+
+                <include layout="@layout/data_placeholder_layout" />
+
+                <include layout="@layout/data_placeholder_layout" />
+
+                <include layout="@layout/data_placeholder_layout" />
+
+                <include layout="@layout/data_placeholder_layout" />
+
+                <include layout="@layout/data_placeholder_layout" />
+
+                <include layout="@layout/data_placeholder_layout" />
+
+                <include layout="@layout/data_placeholder_layout" />
+
+                <include layout="@layout/data_placeholder_layout" />
+
+                <include layout="@layout/data_placeholder_layout" />
+
+                <include layout="@layout/data_placeholder_layout" />
+
+                <include layout="@layout/data_placeholder_layout" />
+
+                <include layout="@layout/data_placeholder_layout" />
+
+            </LinearLayout>
+        </com.facebook.shimmer.ShimmerFrameLayout>
+    </LinearLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:id="@id/nestedScroll"
+        android:visibility="gone">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="15dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/layout_header"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="25dp">
+
+                    <ImageView
+                        android:id="@+id/imgHeader"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/logo" />
+
+                    <TextView
+                        android:id="@+id/txt_welcomeHeading"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:fontFamily="@font/montserrat_semibold"
+                        android:gravity="center_horizontal"
+                        android:textSize="26sp" />
+
+                    <TextView
+                        android:id="@+id/txt_sub_Heading"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:gravity="center_horizontal"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:id="@+id/mainContainer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="10dp">
+                        <!--                        android:drawableStart="@drawable/ic_mail_outline"-->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:background="@drawable/btn_coners_curved"
+                            android:padding="5dp"
+                            android:weightSum="2">
+
+                            <ImageView
+                                android:layout_width="0dp"
+                                android:layout_height="30dp"
+                                android:layout_gravity="center"
+                                android:layout_marginStart="5dp"
+                                android:layout_weight="0.5"
+                                android:background="@color/white"
+                                android:src="@drawable/ic_mail_outline" />
+
+                            <TextView
+                                android:id="@+id/txt_continue_with_email"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1.2"
+                                android:gravity="center"
+                                android:textSize="17sp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="5dp"
+                            android:background="@drawable/btn_coners_curved"
+                            android:padding="5dp"
+                            android:id="@+id/ll_facebook"
+                            android:weightSum="2">
+
+                            <ImageView
+                                android:layout_width="0dp"
+                                android:layout_height="30dp"
+                                android:layout_gravity="center"
+                                android:layout_marginStart="5dp"
+                                android:layout_weight="0.5"
+                                android:background="@color/white"
+                                android:src="@drawable/ic_facebook" />
+
+                            <TextView
+                                android:id="@+id/txt_continue_with_facebook"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1.2"
+                                android:gravity="center"
+                                android:textSize="17sp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/ll_google"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="5dp"
+                            android:background="@drawable/btn_coners_curved"
+                            android:padding="5dp"
+                            android:weightSum="2">
+
+                            <ImageView
+                                android:layout_width="0dp"
+                                android:layout_height="30dp"
+                                android:layout_gravity="center"
+                                android:layout_marginStart="5dp"
+                                android:layout_weight="0.5"
+                                android:background="@color/white"
+                                android:src="@drawable/ic_google" />
+
+                            <TextView
+                                android:id="@+id/txt_continue_with_google"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1.2"
+                                android:gravity="center"
+                                android:textSize="17sp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/ll_linkedin"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="5dp"
+                            android:background="@drawable/btn_coners_curved"
+                            android:padding="5dp"
+                            android:weightSum="2">
+
+                            <ImageView
+                                android:layout_width="0dp"
+                                android:layout_height="30dp"
+                                android:layout_gravity="center"
+                                android:layout_marginStart="5dp"
+                                android:layout_weight="0.5"
+                                android:background="@color/white"
+                                android:src="@drawable/ic_social_linkedin" />
+
+                            <TextView
+                                android:id="@+id/txt_continue_with_linkedin"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1.2"
+                                android:gravity="center"
+                                android:textSize="17sp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="5dp"
+                            android:background="@drawable/btn_coners_curved"
+                            android:padding="5dp"
+                            android:id="@+id/ll_phone"
+                            android:weightSum="2">
+
+                            <ImageView
+                                android:layout_width="0dp"
+                                android:layout_height="30dp"
+                                android:layout_gravity="center"
+                                android:layout_marginStart="5dp"
+                                android:layout_weight="0.5"
+                                android:background="@color/white"
+                                android:src="@drawable/ic_stay_primary_portrait" />
+
+                            <TextView
+                                android:id="@+id/txt_continue_with_phone"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1.2"
+                                android:gravity="center"
+                                android:textSize="17sp" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </RelativeLayout>
+            </LinearLayout>
+
+
+        </RelativeLayout>
+    </androidx.core.widget.NestedScrollView>
+</RelativeLayout>

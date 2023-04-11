@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/myLinearLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/shimmerMain"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <com.facebook.shimmer.ShimmerFrameLayout
+                android:id="@+id/shimmerFrameLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                android:visibility="gone"
+                app:shimmer_base_alpha="0.5">
+
+                <!-- Adding 15 rows of placeholders -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <include layout="@layout/data_placeholder_layout" />
+
+                    <include layout="@layout/data_placeholder_layout" />
+
+                    <include layout="@layout/data_placeholder_layout" />
+
+                    <include layout="@layout/data_placeholder_layout" />
+
+                    <include layout="@layout/data_placeholder_layout" />
+
+                    <include layout="@layout/data_placeholder_layout" />
+
+                    <include layout="@layout/data_placeholder_layout" />
+
+                    <include layout="@layout/data_placeholder_layout" />
+
+                    <include layout="@layout/data_placeholder_layout" />
+
+                    <include layout="@layout/data_placeholder_layout" />
+
+                    <include layout="@layout/data_placeholder_layout" />
+
+                    <include layout="@layout/data_placeholder_layout" />
+
+                    <include layout="@layout/data_placeholder_layout" />
+
+                    <include layout="@layout/data_placeholder_layout" />
+
+                </LinearLayout>
+            </com.facebook.shimmer.ShimmerFrameLayout>
+        </LinearLayout>
+
+        <androidx.core.widget.NestedScrollView
+            android:id="@id/nestedScroll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fillViewport="true"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="22dp"
+                android:orientation="vertical"
+                android:paddingStart="20dp"
+                android:paddingLeft="20dp"
+                android:paddingTop="10dp"
+                android:paddingEnd="20dp"
+                android:paddingRight="20dp">
+
+                <TextView
+                    android:id="@+id/title"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="7dp"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/welcome_text_size" />
+
+     <EditText
+                android:id="@+id/fullName"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/transparent"
+                android:drawableStart="@drawable/ic_person_outline"
+                android:drawablePadding="8dp"
+                android:gravity="center_vertical"
+                android:hint=""
+                android:inputType="textCapWords"
+                android:maxLines="1"
+                android:padding="10dp"
+                android:textSize="16sp" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:background="@color/white_greyish" />
+
+            <EditText
+                android:id="@+id/userEmailId"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@android:color/transparent"
+                android:drawableStart="@drawable/ic_mail_outline"
+                android:drawablePadding="8dp"
+                android:gravity="center_vertical"
+                android:hint=""
+                android:inputType="textEmailAddress"
+                android:maxLines="1"
+                android:padding="10dp"
+                android:textSize="16sp" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:background="@color/white_greyish" />
+
+            <EditText
+                android:id="@+id/mobileNumber"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@android:color/transparent"
+                android:drawableStart="@drawable/ic_stay_primary_portrait"
+                android:drawablePadding="8dp"
+                android:gravity="center_vertical"
+                android:hint=""
+                android:inputType="phone"
+                android:maxLines="1"
+                android:padding="10dp"
+                android:textSize="16sp" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:background="@color/white_greyish" />
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@android:color/transparent"
+                android:drawableStart="@drawable/ic_lock_outline"
+                android:drawablePadding="8dp"
+                android:gravity="center_vertical"
+                android:hint=""
+                android:inputType="textPassword"
+                android:maxLines="1"
+                android:padding="10dp"
+                android:textSize="16sp" />
+
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:background="@color/white_greyish" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="17dp"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/terms_conditions"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/terms_conditionsText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="17dp"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/subscribeCheckbox"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/subscribeText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black" />
+                </LinearLayout>
+
+
+                <Button
+                    android:id="@+id/signUpBtn"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/loginbutton_selector"
+                    android:textColor="@color/background_color" />
+
+
+
+
+                <TextView
+                    android:id="@+id/or"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:textColor="@color/black" />
+
+                <!--                <RelativeLayout-->
+                <!--                    android:id="@+id/btnLL"-->
+                <!--                    android:layout_width="match_parent"-->
+                <!--                    android:layout_height="wrap_content"-->
+                <!--                    android:layout_below="@id/or"-->
+                <!--                    android:layout_marginStart="20dp"-->
+                <!--                    android:layout_marginLeft="20dp"-->
+                <!--                    android:layout_marginEnd="20dp"-->
+                <!--                    android:layout_marginRight="20dp"-->
+                <!--                    android:layout_marginBottom="10dp">-->
+
+                <!--                    <com.facebook.login.widget.LoginButton-->
+                <!--                        android:id="@+id/fbLogin"-->
+                <!--                        android:layout_width="match_parent"-->
+                <!--                        android:layout_height="wrap_content"-->
+                <!--                        android:layout_gravity="center_horizontal"-->
+                <!--                        android:layout_marginStart="4dp"-->
+                <!--                        android:layout_marginTop="10dp"-->
+                <!--                        android:layout_marginEnd="4dp"-->
+                <!--                        android:paddingTop="15dp"-->
+                <!--                        android:paddingBottom="15dp" />-->
+
+                <!--                    <com.google.android.gms.common.SignInButton-->
+                <!--                        android:id="@+id/gmailLogin"-->
+                <!--                        android:layout_width="match_parent"-->
+                <!--                        android:layout_height="wrap_content"-->
+
+                <!--                        android:layout_below="@+id/fbLogin"-->
+                <!--                        android:layout_marginBottom="10dp"-->
+                <!--                        android:stateListAnimator="@null"-->
+                <!--                        app:buttonSize="wide" />-->
+                <!--                    &lt;!&ndash;                <Button&ndash;&gt;-->
+                <!--                    &lt;!&ndash;                    android:id="@+id/linkedin"&ndash;&gt;-->
+                <!--                    &lt;!&ndash;                    android:layout_width="match_parent"&ndash;&gt;-->
+                <!--                    &lt;!&ndash;                    android:layout_height="wrap_content"&ndash;&gt;-->
+                <!--                    &lt;!&ndash;                    android:layout_below="@+id/gmailLogin"&ndash;&gt;-->
+                <!--                    &lt;!&ndash;                    android:background="@drawable/bg_edittext_search"&ndash;&gt;-->
+                <!--                    &lt;!&ndash;                    android:drawableStart="@drawable/ic_linkedin"&ndash;&gt;-->
+                <!--                    &lt;!&ndash;                    android:padding="10dp"&ndash;&gt;-->
+                <!--                    &lt;!&ndash;                    android:text="Login with Linkedin"&ndash;&gt;-->
+                <!--                    &lt;!&ndash;                    android:textColor="@color/dark_blue" />&ndash;&gt;-->
+                <!--                    &lt;!&ndash;<Button&ndash;&gt;-->
+                <!--                    &lt;!&ndash;android:id="@+id/fbLogin"&ndash;&gt;-->
+                <!--                    &lt;!&ndash;style="?android:attr/borderlessButtonStyle"&ndash;&gt;-->
+                <!--                    &lt;!&ndash;android:layout_width="0dp"&ndash;&gt;-->
+                <!--                    &lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+                <!--                    &lt;!&ndash;android:layout_weight="1"&ndash;&gt;-->
+                <!--                    &lt;!&ndash;android:background="@drawable/loginbutton_fb"&ndash;&gt;-->
+                <!--                    &lt;!&ndash;android:textColor="@color/white" />&ndash;&gt;-->
+
+                <!--                    &lt;!&ndash;<Button&ndash;&gt;-->
+                <!--                    &lt;!&ndash;android:id="@+id/gmailLogin"&ndash;&gt;-->
+                <!--                    &lt;!&ndash;style="?android:attr/borderlessButtonStyle"&ndash;&gt;-->
+                <!--                    &lt;!&ndash;android:layout_width="0dp"&ndash;&gt;-->
+                <!--                    &lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+                <!--                    &lt;!&ndash;android:layout_marginStart="4dp"&ndash;&gt;-->
+                <!--                    &lt;!&ndash;android:layout_marginLeft="4dp"&ndash;&gt;-->
+                <!--                    &lt;!&ndash;android:layout_marginEnd="4dp"&ndash;&gt;-->
+                <!--                    &lt;!&ndash;android:layout_marginRight="4dp"&ndash;&gt;-->
+                <!--                    &lt;!&ndash;android:layout_weight="1"&ndash;&gt;-->
+                <!--                    &lt;!&ndash;android:background="@drawable/loginbutton_gmail"&ndash;&gt;-->
+                <!--                    &lt;!&ndash;android:textColor="@color/white" />&ndash;&gt;-->
+
+                <!--                </RelativeLayout>-->
+
+                <!--                <RelativeLayout-->
+                <!--                    android:id="@+id/btnL"-->
+                <!--                    android:layout_width="match_parent"-->
+                <!--                    android:layout_height="wrap_content"-->
+                <!--                    android:layout_below="@+id/btnLL"-->
+                <!--                    android:layout_marginStart="20dp"-->
+                <!--                    android:layout_marginLeft="20dp"-->
+                <!--                    android:layout_marginEnd="20dp"-->
+                <!--                    android:layout_marginRight="20dp"-->
+                <!--                    android:layout_marginBottom="20dp">-->
+
+                <!--                    &lt;!&ndash;<Button&ndash;&gt;-->
+                <!--                    &lt;!&ndash;android:id="@+id/fbLogin"&ndash;&gt;-->
+                <!--                    &lt;!&ndash;style="?android:attr/borderlessButtonStyle"&ndash;&gt;-->
+                <!--                    &lt;!&ndash;android:layout_width="0dp"&ndash;&gt;-->
+                <!--                    &lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+                <!--                    &lt;!&ndash;android:layout_weight="1"&ndash;&gt;-->
+                <!--                    &lt;!&ndash;android:background="@drawable/loginbutton_fb"&ndash;&gt;-->
+                <!--                    &lt;!&ndash;android:textColor="@color/white" />&ndash;&gt;-->
+
+
+                <!--                    <Button-->
+                <!--                        android:id="@+id/linkedin"-->
+                <!--                        android:layout_width="match_parent"-->
+                <!--                        android:layout_height="wrap_content"-->
+                <!--                        android:layout_marginStart="6dp"-->
+                <!--                        android:layout_marginEnd="6dp"-->
+                <!--                        android:background="@drawable/bg_edittext_search"-->
+                <!--                        android:drawableStart="@drawable/ic_linkedin"-->
+                <!--                        android:padding="10dp"-->
+                <!--                        android:text="Login with Linkedin"-->
+                <!--                        android:textColor="@color/dark_blue" />-->
+                <!--                    &lt;!&ndash;                                <Button&ndash;&gt;-->
+                <!--                    &lt;!&ndash;                                    android:id="@+id/gmailLogin"&ndash;&gt;-->
+                <!--                    &lt;!&ndash;                                    style="?android:attr/borderlessButtonStyle"&ndash;&gt;-->
+                <!--                    &lt;!&ndash;                                    android:layout_width="0dp"&ndash;&gt;-->
+                <!--                    &lt;!&ndash;                                    android:layout_height="wrap_content"&ndash;&gt;-->
+                <!--                    &lt;!&ndash;                                    android:layout_marginStart="4dp"&ndash;&gt;-->
+                <!--                    &lt;!&ndash;                                    android:layout_marginLeft="4dp"&ndash;&gt;-->
+                <!--                    &lt;!&ndash;                                    android:layout_marginEnd="4dp"&ndash;&gt;-->
+                <!--                    &lt;!&ndash;                                    android:layout_marginRight="4dp"&ndash;&gt;-->
+                <!--                    &lt;!&ndash;                                    android:layout_weight="1"&ndash;&gt;-->
+                <!--                    &lt;!&ndash;                                    android:background="@drawable/loginbutton_gmail"&ndash;&gt;-->
+                <!--                    &lt;!&ndash;                                    android:textColor="@color/white" />&ndash;&gt;-->
+
+
+                <!--                </RelativeLayout>-->
+                <LinearLayout
+                    android:id="@+id/btnLL"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/fbLogin"
+                        style="?android:attr/borderlessButtonStyle"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/ic_facebook"
+                        android:visibility="visible" />
+
+                    <!--                <com.facebook.login.widget.LoginButton-->
+                    <!--                    android:id="@+id/fbLogin"-->
+                    <!--                    android:layout_width="match_parent"-->
+                    <!--                    android:layout_height="wrap_content"-->
+                    <!--                    android:layout_gravity="center_horizontal"-->
+                    <!--                    android:layout_marginStart="8dp"-->
+                    <!--                    android:layout_marginTop="10dp"-->
+                    <!--                    android:layout_marginEnd="8dp"-->
+                    <!--                    android:paddingTop="15dp"-->
+                    <!--                    android:paddingBottom="15dp"-->
+                    <!--                    android:text="Continue with Facebook" />-->
+
+                    <!--                    <com.google.android.gms.common.SignInButton-->
+                    <!--                        android:id="@+id/gmailLogin"-->
+                    <!--                        android:layout_width="match_parent"-->
+                    <!--                        android:layout_height="wrap_content"-->
+                    <!--                        android:layout_below="@+id/fbLogin"-->
+                    <!--                        android:layout_marginStart="4dp"-->
+                    <!--                        android:layout_marginEnd="4dp"-->
+                    <!--                        android:layout_marginBottom="10dp"-->
+                    <!--                        android:stateListAnimator="@null"-->
+                    <!--                        app:buttonSize="wide" />-->
+
+                    <!--                <Button-->
+                    <!--                    android:id="@+id/linkedin"-->
+                    <!--                    android:layout_width="match_parent"-->
+                    <!--                    android:layout_height="wrap_content"-->
+                    <!--                    android:layout_below="@+id/gmailLogin"-->
+                    <!--                    android:background="@drawable/bg_edittext_search"-->
+                    <!--                    android:drawableStart="@drawable/ic_linkedin"-->
+                    <!--                    android:padding="10dp"-->
+                    <!--                    android:layout_marginStart="6dp"-->
+                    <!--                    android:layout_marginEnd="6dp"-->
+                    <!--                    android:text="Login with Linkedin"-->
+                    <!--                    android:textColor="@color/dark_blue" />-->
+                    <Button
+                        android:id="@+id/gmailLogin"
+                        style="?android:attr/borderlessButtonStyle"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginStart="14dp"
+                        android:background="@drawable/googlelogin"
+                        android:textColor="@color/white" />
+
+                    <Button
+                        android:id="@+id/linkedin"
+                        style="?android:attr/borderlessButtonStyle"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginStart="14dp"
+                        android:background="@drawable/ic_linkedin"
+                        android:textColor="@color/dark_blue" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:background="@color/white"
+       >
+
+        <View
+            android:id="@+id/line"
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:background="@color/white_greyish" />
+
+        <TextView
+            android:id="@+id/already_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:padding="10dp"
+            android:textColor="@color/white_greyish"
+            android:textSize="15sp" />
+    </LinearLayout>
+</RelativeLayout>

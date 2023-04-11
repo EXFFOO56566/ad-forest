@@ -1,0 +1,135 @@
+{
+  "project_info": {
+    "project_number": "170168176816",
+    "firebase_url": "https://adforest-ab45e.firebaseio.com",
+    "project_id": "adforest-ab45e",
+    "storage_bucket": "adforest-ab45e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:170168176816:android:7c49d06b0b89bf03",
+        "android_client_info": {
+          "package_name": "com.scriptsbundle.adforest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "170168176816-1ceff8a5ncf8v7roc20fskh1hn1cfdos.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.scriptsbundle.adforest",
+            "certificate_hash": "7d42a1b9ad42c3eca1b1b83c1a770c55d5fc99b8"
+          }
+        },
+        {
+          "client_id": "170168176816-6ba12k011m4otcn2507k2753oostl13n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.scriptsbundle.adforest",
+            "certificate_hash": "c4d644973a5476ca39cdec874cdb23fb834c665f"
+          }
+        },
+        {
+          "client_id": "170168176816-8g0obqparcuo8a1s8lbv3rn70mhjqm96.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.scriptsbundle.adforest",
+            "certificate_hash": "660d9dd15ea676e3fb7a427808aaec0a341a4897"
+          }
+        },
+        {
+          "client_id": "170168176816-dqg1nojpthjvcjr13l50tq8nn9u0r0ei.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.scriptsbundle.adforest",
+            "certificate_hash": "18ed0a50cc42c054507675ed070e633c0f75954e"
+          }
+        },
+        {
+          "client_id": "170168176816-er15nqbnnb6o1gouprfiq2bm995d2n40.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.scriptsbundle.adforest",
+            "certificate_hash": "8adb9c587444cf8b510287c835d52a0af78af564"
+          }
+        },
+        {
+          "client_id": "170168176816-lts34h8u201j9ekvoaqo3it78a5dj258.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.scriptsbundle.adforest",
+            "certificate_hash": "a5a484afc4149cb4697f1019183e6a5042344837"
+          }
+        },
+        {
+          "client_id": "170168176816-pr8jbjms7lre847s6e3ih7l06oa3udm6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.scriptsbundle.adforest",
+            "certificate_hash": "abe78542d851655a23e818173039bfa7d67441a9"
+          }
+        },
+        {
+          "client_id": "170168176816-rnp35pd697j3us7fblt37s5i3tcnm7hm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.scriptsbundle.adforest",
+            "certificate_hash": "07ef2ecdd694c1a95b655c2ecacc41d8ceae6d66"
+          }
+        },
+        {
+          "client_id": "170168176816-t8bo1q74pdlc1elikf03g68bqjlmnupm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.scriptsbundle.adforest",
+            "certificate_hash": "ba536f98d653357936f17026623e07a9760791fe"
+          }
+        },
+        {
+          "client_id": "170168176816-tdd920kf11qc56cfmno6t1cf0q5qr1t3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.scriptsbundle.adforest",
+            "certificate_hash": "feed22d8f88128d7863f4eab5df00f058b1138c7"
+          }
+        },
+        {
+          "client_id": "170168176816-vnt456s1mdse4jimbsfdj94ip5saueqh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.scriptsbundle.adforest",
+            "certificate_hash": "8a4ea2fd198d835b4ca08b8dc99d3fb10b6de047"
+          }
+        },
+        {
+          "client_id": "170168176816-96vo4j6q5s20vp7t2atlvojna6rrqik5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-UWb1WhceMAVnHFe2PNdw49fyS7Yh9rQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "170168176816-96vo4j6q5s20vp7t2atlvojna6rrqik5.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "170168176816-cni27t9d6mkg9mmidp62hhm0urm4vlfn.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.GlixenTech.AdForestApp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
